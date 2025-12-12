@@ -1,0 +1,83 @@
+# Note: You can customize all messages as you wish.
+#
+# Menu Titles
+menu-title:
+  seller: "&2Raffle Setup"
+  buyer: "&9Active Raffles"
+  ticket: "&9Buy Tickets"
+
+# GUI Items
+gui:
+  set-price:
+    name: "&6Set Price"
+    lore-current: "&7Current Price: &e%price%"
+    lore-click: "&7Click to change price in chat."
+  publish:
+    name: "&aPublish Raffle"
+    lore-step1: "&7Step 1: Broadcast & Enable Buying."
+    lore-status: "&aStatus: PUBLISHED"
+    lore-click: "&eClick to Publish"
+  start:
+    name: "&cStart Raffle"
+    lore-step2: "&7Step 2: Generate Winning Number."
+    lore-must-publish: "&c(Must Publish first)"
+    lore-started: "&aStatus: STARTED (Winner Generated)"
+    lore-ready: "&a(Ready to Start/Drop Number)"
+  buyer-item:
+    price: "&6Price: &e%price%"
+    seller: "&6Seller: &e%seller%"
+    click: "&aClick to view details!"
+  sold-out:
+    name: "&c&lSold Out"
+  buy-button:
+    name: "&aBuy Random Ticket"
+    lore: "&7Click to buy a ticket (1-100)"
+  page-info: "&7Page %page%/%total%"
+  prev-page: "&ePrevious Page"
+  next-page: "&eNext Page"
+  ticket-info:
+    price-per-ticket: "&6Price per ticket: &e%price%"
+    seller: "&6Seller: &e%seller%"
+
+# Messages
+messages:
+  type-price: "&ePlease type the price in chat (or 'cancel'):"
+  already-published: "&cRaffle is already published!"
+  published-broadcast:
+    - "&a&lA new Raffle has been PUBLISHED!"
+    - "&eItem: %item%"
+    - "&ePrice: %price%"
+    - "&bTickets are now available! Type /raffle to buy."
+    - "&7(Winning number will be revealed soon...)"
+  must-publish: "&cYou must PUBLISH the raffle first!"
+  no-raffle-start: "&cNo raffle to start."
+  winner-generated: "&cWinning number already generated: %number%"
+  no-tickets-sold: "&cNo tickets have been sold yet! Cannot start raffle."
+  raffle-ended:
+    - "&6&lTHE RAFFLE HAS ENDED!"
+    - "&6The Winning Number is: &c%number%"
+  we-have-winner:
+    - "&6&lWE HAVE A WINNER!"
+    - "&a%winner% holds ticket #%number%!"
+  winner-offline: "&eWinner is offline. Prize pending."
+  raffle-inactive: "&cThis raffle is no longer active."
+  sold-out: "&cAll tickets have been sold! No more tickets available."
+  not-enough-money: "&cYou don't have enough money! Cost: %price%"
+  ticket-purchased: "&aYou purchased ticket #%number%!"
+  winner-self:
+    - "&6&lWE HAVE A WINNER!"
+    - "&a%player% bought ticket #%number% and won the raffle!"
+  missing-item: "&cYou do not have the item required to publish this raffle!"
+  
+  # Chat Listener
+  price-cancel: "Cancelled price editing."
+  price-invalid: "&cInvalid number. Please type a valid price or 'cancel' to stop."
+  price-negative: "&cPrice cannot be negative."
+  price-set: "&aPrice set to: %price%"
+  
+  # Command Messages (added for consistency)
+  no-permission: "&cYou do not have permission to do that."
+  reload-success: "&aConfiguration reloaded successfully."
+  no-console: "&cThis command can only be used by players."
+  must-hold-item: "&cYou must hold an item to sell!"
+  no-active-raffle: "&cNo active raffles at the moment."

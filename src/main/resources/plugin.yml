@@ -1,0 +1,18 @@
+name: RafflePlus
+version: 1.0
+main: com.raffleplus.RafflePlus
+api-version: 1.13
+author: Trae
+description: A raffle plugin for Minecraft 1.8-1.21
+softdepend: [Vault, Vault2]
+commands:
+  raffle:
+    description: Main command for RafflePlus
+    usage: /raffle [sell|reload]
+permissions:
+  r.sell:
+    description: Allows creating raffles
+    default: true
+  r.reload:
+    description: Allows reloading the plugin configuration
+    default: op

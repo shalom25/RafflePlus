@@ -1,0 +1,46 @@
+#  _____        __  __ _      _____  _
+# |  __ \      / _|/ _| |    |  __ \| |
+# | |__) |__ _| |_| |_| | ___| |__) | |_   _ ___
+# |  _  // _` |  _|  _| |/ _ \  ___/| | | | / __|
+# | | \ \ (_| | | | | | |  __/ |    | | |_| \__ \
+# |_|  \_\__,_|_| |_| |_|\___|_|    |_|\__,_|___/
+#
+# Developed by: shalom25
+#
+# Description:
+# RafflePlus allows players to raffle their items to other players.
+# Sellers can hold an item, type /raffle sell, set a ticket price, and publish it.
+# Buyers can type /raffle to view active raffles and buy tickets (1-100).
+# Once the raffle is started by the seller, a random winner is selected.
+
+# Language Configuration / Configuración de Idioma:
+# Change 'en' to 'es' for Spanish. / Cambia 'en' por 'es' para Español.
+# Custom languages must be in the 'languages' folder. / Idiomas personalizados deben estar en la carpeta 'languages'.
+language: en
+
+mysql:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  database: "raffleplus"
+  username: "root"
+  password: ""
+
+messages:
+  prefix: "&x&A&E&D&9&7&1[&x&9&5&E&8&1&ERafflePlus&x&A&E&D&9&7&1] "
+
+sounds:
+  click: "UI_BUTTON_CLICK"
+  error: "ENTITY_VILLAGER_NO"
+  publish: "ENTITY_PLAYER_LEVELUP"
+  win: "UI_TOAST_CHALLENGE_COMPLETE"
+  buy: "ENTITY_EXPERIENCE_ORB_PICKUP"
+
+# Permissions:
+# r.sell   - Allows creating raffles (Default: true)
+# r.reload - Allows reloading the plugin configuration (Default: op)
+
+# Commands:
+# /raffle sell   - Opens the seller menu to create a raffle (Requires r.sell)
+# /raffle        - Opens the main menu to view and buy tickets
+# /raffle reload - Reloads the configuration (Requires r.reload)

@@ -1,0 +1,83 @@
+# Nota: Puedes personalizar todos los mensajes como desees.
+#
+# Títulos de Menú
+menu-title:
+  seller: "&2Configuración de Rifa"
+  buyer: "&9Rifas Activas"
+  ticket: "&9Comprar Tickets"
+
+# Items de GUI
+gui:
+  set-price:
+    name: "&6Establecer Precio"
+    lore-current: "&7Precio Actual: &e%price%"
+    lore-click: "&7Clic para cambiar precio en chat."
+  publish:
+    name: "&aPublicar Rifa"
+    lore-step1: "&7Paso 1: Anunciar y Habilitar Compra."
+    lore-status: "&aEstado: PUBLICADO"
+    lore-click: "&eClic para Publicar"
+  start:
+    name: "&cIniciar Rifa"
+    lore-step2: "&7Paso 2: Generar Número Ganador."
+    lore-must-publish: "&c(Debes Publicar primero)"
+    lore-started: "&aEstado: INICIADO (Ganador Generado)"
+    lore-ready: "&a(Listo para Iniciar)"
+  buyer-item:
+    price: "&6Precio: &e%price%"
+    seller: "&6Vendedor: &e%seller%"
+    click: "&aClic para ver detalles!"
+  sold-out:
+    name: "&c&lAgotado"
+  buy-button:
+    name: "&aComprar Ticket Aleatorio"
+    lore: "&7Clic para comprar un ticket (1-100)"
+  page-info: "&7Página %page%/%total%"
+  prev-page: "&ePágina Anterior"
+  next-page: "&ePágina Siguiente"
+  ticket-info:
+    price-per-ticket: "&6Precio por ticket: &e%price%"
+    seller: "&6Vendedor: &e%seller%"
+
+# Mensajes
+messages:
+  type-price: "&ePor favor escribe el precio en el chat (o 'cancel'):"
+  already-published: "&c¡La rifa ya está publicada!"
+  published-broadcast:
+    - "&a&l¡Se ha PUBLICADO una nueva Rifa!"
+    - "&eItem: %item%"
+    - "&ePrecio: %price%"
+    - "&b¡Los tickets ya están disponibles! Escribe /raffle para comprar."
+    - "&7(El número ganador se revelará pronto...)"
+  must-publish: "&c¡Debes PUBLICAR la rifa primero!"
+  no-raffle-start: "&cNo hay rifa para iniciar."
+  winner-generated: "&cNúmero ganador ya generado: %number%"
+  no-tickets-sold: "&c¡No se han vendido tickets aún! No se puede iniciar."
+  raffle-ended:
+    - "&6&l¡LA RIFA HA TERMINADO!"
+    - "&6El Número Ganador es: &c%number%"
+  we-have-winner:
+    - "&6&l¡TENEMOS UN GANADOR!"
+    - "&a%winner% tiene el ticket #%number%!"
+  winner-offline: "&eEl ganador está desconectado. Premio pendiente."
+  raffle-inactive: "&cEsta rifa ya no está activa."
+  sold-out: "&c¡Todos los tickets han sido vendidos! No quedan más."
+  not-enough-money: "&c¡No tienes suficiente dinero! Costo: %price%"
+  ticket-purchased: "&a¡Compraste el ticket #%number%!"
+  winner-self:
+    - "&6&l¡TENEMOS UN GANADOR!"
+    - "&a%player% compró el ticket #%number% y ganó la rifa!"
+  missing-item: "&c¡No tienes el item requerido para publicar esta rifa!"
+  
+  # Chat Listener
+  price-cancel: "Edición de precio cancelada."
+  price-invalid: "&cNúmero inválido. Escribe un precio válido o 'cancel'."
+  price-negative: "&cEl precio no puede ser negativo."
+  price-set: "&aPrecio establecido a: %price%"
+  
+  # Command Messages (added for consistency)
+  no-permission: "&cNo tienes permiso para hacer eso."
+  reload-success: "&aConfiguración recargada exitosamente."
+  no-console: "&cEste comando solo puede ser usado por jugadores."
+  must-hold-item: "&c¡Debes sostener un item para vender!"
+  no-active-raffle: "&cNo hay rifas activas en este momento."

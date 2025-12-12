@@ -1,0 +1,87 @@
+[CENTER][IMG]https://i.imgur.com/dDfGy1f.png[/IMG]
+
+[SIZE=7][B]RafflePlus[/B][/SIZE]
+[SIZE=5][B][I]The ultimate raffle system for your server [1.8 - 1.21][/I][/B][/SIZE]
+
+[IMG]https://i.imgur.com/kp17g2x.png[/IMG][/CENTER]
+
+[CENTER][IMG]https://i.imgur.com/KiXA0GT.png[/IMG]
+[SIZE=4][B]Interactive and beautiful menus for players to view and join raffles.[/B][/SIZE]
+[IMG]url_screenshot_gui.png[/IMG]
+
+[IMG]https://i.imgur.com/DZb0Qbk.png[/IMG]
+[SIZE=4][B]Seamless support for Vault to handle ticket purchases.[/B][/SIZE]
+
+[IMG]https://i.imgur.com/0gA3meZ.png[/IMG]
+[SIZE=4][B]Customize every message, sound, and reward directly in config.yml.[/B][/SIZE]
+
+[IMG]https://i.imgur.com/ueu8xGv.png[/IMG]
+[SIZE=4][B]Set automatic intervals for raffles to run without admin intervention.[/B][/SIZE]
+
+[IMG]https://i.imgur.com/MZnjz30.png[/IMG]
+[SIZE=4][B]Celebrate winners with custom sounds, messages, and particle effects.[/B][/SIZE]
+[/CENTER]
+
+[LIST]
+[*] [SIZE=4][B]Version Support:[/B] Works perfectly on all versions from 1.8 to 1.21.[/SIZE]
+[*] [SIZE=4][B]Optimized:[/B] Lightweight code designed to have zero impact on server performance.[/SIZE]
+[/LIST]
+
+[CENTER][IMG]https://i.imgur.com/SxIU7Pp.png[/IMG]
+
+[SIZE=4][B]If you need help or have suggestions, please join our Discord community or post in the discussion tab![/B][/SIZE]
+[URL='https://discord.gg/tu_invitacion'][B][SIZE=6]DISCORD SUPPORT[/SIZE][/B][/URL]
+
+_______________________________________________________
+
+[IMG]https://i.imgur.com/iKLOifK.png[/IMG][/CENTER]
+
+[SIZE=4][B]RafflePlus[/B] allows you to create engaging lottery events on your server. Players can purchase tickets using in-game currency, and the system automatically selects winners based on your configuration. It's the perfect way to sink economy money and keep players excited!
+
+What makes [B]RafflePlus[/B] special is its simplicity and visual appeal. With an intuitive GUI, players can easily understand how to participate without complex commands.[/SIZE]
+
+[CENTER][SIZE=6][B]PLUGIN PROPERTIES[/B][/SIZE][/CENTER]
+
+[LIST]
+[SIZE=4]
+[*] [B]Ticket System:[/B]
+   - Configurable price per ticket.
+   - Limit tickets per player (Optional).
+[*] [B]Rewards:[/B]
+   - Execute custom commands for winners.
+   - Give items or money directly.
+[*] [B]Automation:[/B]
+   - Set automatic intervals for raffles.
+   - Broadcast messages to announce winners.
+[*] [B]Customization:[/B]
+   - Edit all lore and item names in the GUI.
+   - PlaceholderAPI support (Coming soon).
+[/SIZE]
+[/LIST]
+
+[CENTER][IMG]https://i.imgur.com/vdk0Q5C.png[/IMG][/CENTER]
+
+[CODE]
+/raffle           - Opens the main Raffle GUI.
+/raffle buy       - Quick command to buy a ticket.
+/raffle reload    - Reloads the configuration file.
+[/CODE]
+
+[CENTER][IMG]https://i.imgur.com/lxNkr6T.png[/IMG][/CENTER]
+
+[LIST]
+[SIZE=4]
+[*] [FONT=Courier New]r.buy[/FONT] - Allows players to open the menu and buy tickets (Default: true).
+[*] [FONT=Courier New]r.reload[/FONT] - Admin permission to reload the plugin (Default: OP).
+[/SIZE]
+[/LIST]
+
+[CENTER][IMG]https://i.imgur.com/7ZZmjdX.png[/IMG][/CENTER]
+
+[SIZE=4][B]1. Download [COLOR=#FF8C00]RafflePlus.jar[/COLOR].
+2. Install [COLOR=#FF8C00]Vault[/COLOR] and an economy plugin (like EssentialsX).
+3. Drag RafflePlus into your [FONT=Courier New]plugins[/FONT] folder.
+4. Restart your server.
+5. Configure [FONT=Courier New]config.yml[/FONT] to your liking![/B][/SIZE]
+
+[CENTER][SIZE=5][I]Enjoying the plugin? Please leave a review![/I] ⭐⭐⭐⭐⭐[/SIZE][/CENTER]
