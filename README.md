@@ -6,29 +6,29 @@
 
 ### *The ultimate raffle system for your server [1.8 - 1.21]*
 
-<img src="https://i.imgur.com/kp17g2x.png" alt="Decoration"/>
+<img src="https://i.imgur.com/kp17g2x.png" alt="Decoration" height="40"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://i.imgur.com/KiXA0GT.png" alt="GUI Feature"/>
+<img src="https://i.imgur.com/KiXA0GT.png" alt="GUI Feature" height="40"/>
 
 **Interactive and beautiful menus for players to view and join raffles.**
 
-<img src="https://i.imgur.com/DZb0Qbk.png" alt="Vault Support"/>
+<img src="https://i.imgur.com/DZb0Qbk.png" alt="Vault Support" height="40"/>
 
 **Seamless support for Vault to handle ticket purchases.**
 
-<img src="https://i.imgur.com/0gA3meZ.png" alt="Customization"/>
+<img src="https://i.imgur.com/0gA3meZ.png" alt="Customization" height="40"/>
 
 **Customize every message, sound, and reward directly in config.yml.**
 
-<img src="https://i.imgur.com/ueu8xGv.png" alt="Automation"/>
+<img src="https://i.imgur.com/ueu8xGv.png" alt="Automation" height="40"/>
 
 **Set automatic intervals for raffles to run without admin intervention.**
 
-<img src="https://i.imgur.com/MZnjz30.png" alt="Winners"/>
+<img src="https://i.imgur.com/MZnjz30.png" alt="Winners" height="40"/>
 
 **Celebrate winners with custom sounds, messages, and particle effects.**
 
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img src="https://i.imgur.com/SxIU7Pp.png" alt="Support"/>
+<img src="https://i.imgur.com/SxIU7Pp.png" alt="Support" height="40"/>
 
 **If you need help or have suggestions, please join our Discord community or post in the discussion tab!**
 
@@ -49,7 +49,7 @@
 
 _______________________________________________________
 
-<img src="https://i.imgur.com/iKLOifK.png" alt="About"/>
+<img src="https://i.imgur.com/iKLOifK.png" alt="About" height="40"/>
 
 </div>
 
@@ -75,7 +75,7 @@ What makes **RafflePlus** special is its simplicity and visual appeal. With an i
   - PlaceholderAPI support (Coming soon).
 
 <div align="center">
-  <img src="https://i.imgur.com/vdk0Q5C.png" alt="Commands"/>
+  <img src="https://i.imgur.com/vdk0Q5C.png" alt="Commands" height="40"/>
 </div>
 
 ```yaml
@@ -85,14 +85,14 @@ What makes **RafflePlus** special is its simplicity and visual appeal. With an i
 ```
 
 <div align="center">
-  <img src="https://i.imgur.com/lxNkr6T.png" alt="Permissions"/>
+  <img src="https://i.imgur.com/lxNkr6T.png" alt="Permissions" height="40"/>
 </div>
 
 - `r.buy` - Allows players to open the menu and buy tickets (Default: true).
 - `r.reload` - Admin permission to reload the plugin (Default: OP).
 
 <div align="center">
-  <img src="https://i.imgur.com/7ZZmjdX.png" alt="Installation"/>
+  <img src="https://i.imgur.com/7ZZmjdX.png" alt="Installation" height="40"/>
 </div>
 
 1. Download **RafflePlus.jar**.
