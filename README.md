@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.imgur.com/dDfGy1f.png" alt="RafflePlus Logo" width="200"/>
+<img src="https://i.imgur.com/2gYbPCZ.png" alt="RafflePlus Banner"/>
 
 # RafflePlus
 
